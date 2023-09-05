@@ -22,6 +22,7 @@ module.exports = {
       karla: "'Karla', sans-serif",
       bigShoulders: "'Big Shoulders Display', cursive",
       lexend: "'Lexend Deca', sans-serif",
+      kumbh: "Kumbh Sans', sans-serif",
     },
     extend: {},
   },
