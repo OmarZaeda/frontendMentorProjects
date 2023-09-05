@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@media (max-width: 768px){
+	body{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		margin: 0px
+	}
+	.container{
+		width: 100%
+	}
+	.box__container{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		width: 90%;
+		margin: auto;
+		margin-bottom: 25px;
+		margin-top: 25px;
+
+	}
+	.image-desk{
+		display: none;
+	}
+	.image-mob{
+		display: block;
+		width: 100%;
+		border-top-right-radius: 10px;
+		border-top-left-radius: 10px;
+		object-fit: cover;
+	}
+	.head{
+		text-align: center;
+		width: 75%;
+		margin: 0px;
+		padding: 0px;
+		margin-top: 30px;
+		margin-right: auto;
+		margin-left: auto;
+		font-size: 28px
+	}
+	.br{
+		display: none;
+	}
+	.para{
+		text-align: center;
+		width: 70%;
+		margin: auto;
+		padding: 0px;
+		margin-top: 15px;
+		margin-bottom: 30px
+	}
+	.div{
+		margin: 0px;
+		text-align:center;
+	}
+	.cont-container{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		margin-bottom: 30px
+	}
+	.first{
+		padding: 0px;
+		margin: 0px;
+		text-align: center;
+		width: 100%
+	}
+}
