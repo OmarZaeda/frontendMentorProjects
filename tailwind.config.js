@@ -18,6 +18,8 @@ module.exports = {
       fraunces: "'Fraunces', serif",
       montserrat: "'Montserrat', sans-serif",
       outfit: "'Outfit', sans-serif",
+      poppins: "'Poppins', sans-serif",
+      karla: "'Karla', sans-serif",
     },
     extend: {},
   },
