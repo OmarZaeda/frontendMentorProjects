@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap"
+    rel="stylesheet">
+  <title>Omar Zaeda | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="bg-[#f2ebe3]">
+  <div class="flex justify-center items-center sm:h-screen ">
+    <div class="flex flex-col sm:grid sm:grid-cols-2 max-w-[600px] w-full px-3 sm:px-0">
+      <div class="">
+        <img class="hidden sm:block h-full rounded-tl-lg rounded-bl-lg"
+          src="/product-preview-card-component-main/images/image-product-desktop.jpg" alt="">
+        <img class=" sm:hidden" src="/product-preview-card-component-main/images/image-product-mobile.jpg" alt="">
+      </div>
+      <div class="p-5 bg-White rounded-lg">
+        <p class="text-[#6c7289] tracking-[5px] font-montserrat uppercase text-sm">Perfume</p>
+        <h1 class="font-bold text-4xl font-fraunces my-5">Gabrielle Essence Eau De Parfum</h1>
+        <p class="text-[#6c7289] text-base">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.</p>
+        <div class="my-5 flex space-x-5 items-center">
+          <p class="font-fraunces text-4xl font-bold ">$149.99</p>
+          <p class="text-[#6c7289] line-clamp-1"><del>$169.99</del></p>
+        </div>
+        <button
+          class="hover:bg-[#214538] transition-colors duration-300 bg-[#3c8067] w-full p-3 rounded-lg text-White font-montserrat flex justify-center items-center"><img
+            src="/product-preview-card-component-main/images/icon-cart.svg" class="mr-3" alt="">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

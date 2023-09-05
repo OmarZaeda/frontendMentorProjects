@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.checked {
+  @apply bg-Orange text-White;
+}
+.hover {
+  @apply hover:bg-Orange;
+}

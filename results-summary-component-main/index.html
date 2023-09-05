@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <title>Omar Zaeda | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="font-hankenGrotesk">
+  <div class="flex justify-center items-center h-screen">
+    <div class="flex flex-col  sm:grid sm:grid-cols-2 max-w-[600px] w-full mx-auto shadow-2xl rounded-3xl">
+      <div
+        class="rounded-3xl p-10 bg-gradient-to-b from-[#7857ff] to-[#2e2be9] flex justify-center items-center flex-col">
+        <p class="text-[#c8c7ff] text-lg">Your Result</p>
+        <div
+          class="my-5 w-[150px] h-[150px] p-5 flex justify-center items-center flex-col rounded-full bg-gradient-to-b from-[#4e21ca] to-[#2421ca]">
+          <p class="text-White text-5xl font-extrabold">76</p>
+          <p class="text-[#c8c7ff]">of 100</p>
+        </div>
+        <h6 class="text-White text-2xl">Great</h6>
+        <p class="text-sm mt-3 text-[#c8c7ff] text-center">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="text-lg space-y-4 p-5 ">
+        <h5 class="text-2xl font-bold mb-5">Summary</h5>
+        <div class="flex justify-between bg-[#fff5f5] p-3 rounded-xl">
+          <div class="flex space-x-2">
+            <img src="/results-summary-component-main/assets/images/icon-reaction.svg" alt="">
+            <p class="text-[#ff5757]">Reaction</p>
+          </div>
+          <p><span class="font-bold">80</span> / <span class="opacity-60">100</span></p>
+        </div>
+        <div class="flex justify-between bg-[#fff6e5] p-3 rounded-xl">
+          <div class="flex space-x-2">
+            <img src="/results-summary-component-main/assets/images/icon-memory.svg" alt="">
+            <p class="text-[#ffb01f]">Memory</p>
+          </div>
+          <p><span class="font-bold">92</span> / <span class="opacity-60">100</span></p>
+        </div>
+        <div class="flex justify-between bg-[#e5fff9] p-3 rounded-xl">
+          <div class="flex space-x-2">
+            <img src="/results-summary-component-main/assets/images/icon-verbal.svg" alt="">
+            <p class="text-[#00bd91]">Verbal</p>
+          </div>
+          <p><span class="font-bold">61</span> / <span class="opacity-60">100</span></p>
+        </div>
+        <div class="flex justify-between bg-[#f1f2fe] p-3 rounded-xl">
+          <div class="flex space-x-2">
+            <img src="/results-summary-component-main/assets/images/icon-visual.svg" alt="">
+            <p class="text-[#1125d4]">Visual</p>
+          </div>
+          <p><span class="font-bold">72</span> / <span class="opacity-60">100</span></p>
+        </div>
+        <div>
+          <button
+            class="bg-[#303b5a] w-full p-3 rounded-full text-White mt-5 hover:bg-[#2e2be9] transition-colors duration-300">Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
