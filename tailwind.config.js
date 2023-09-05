@@ -20,6 +20,8 @@ module.exports = {
       outfit: "'Outfit', sans-serif",
       poppins: "'Poppins', sans-serif",
       karla: "'Karla', sans-serif",
+      bigShoulders: "'Big Shoulders Display', cursive",
+      lexend: "'Lexend Deca', sans-serif",
     },
     extend: {},
   },

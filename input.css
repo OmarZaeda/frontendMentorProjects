@@ -8,3 +8,6 @@
 .hover {
   @apply hover:bg-Orange;
 }
+.bgg-transparent {
+  background-color: transparent;
+}
