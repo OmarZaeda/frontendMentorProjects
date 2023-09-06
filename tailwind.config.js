@@ -23,6 +23,7 @@ module.exports = {
       bigShoulders: "'Big Shoulders Display', cursive",
       lexend: "'Lexend Deca', sans-serif",
       kumbh: "Kumbh Sans', sans-serif",
+      redHat: "'Red Hat Display', sans-serif",
     },
     extend: {},
   },
